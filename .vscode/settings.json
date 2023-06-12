@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        ".env.sh": "shellscript",
+        ".env.prod.sh": "shellscript",
+        "ioctl.h": "c",
+        "crypt.h": "c"
+    }
+}
