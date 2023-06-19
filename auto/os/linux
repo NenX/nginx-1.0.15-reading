@@ -25,6 +25,7 @@ version=$((`uname -r \
 
 version=${version:-0}
 
+# '
 
 # enable the rt signals on Linux between 2.2.19 and 2.6.17
 

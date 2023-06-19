@@ -58,7 +58,8 @@ if [ "$NGX_PLATFORM" != win32 ]; then
     . auto/headers
 fi
 # 对于当前操作系统，定义一些特定的操作系统相关的方法并检查当前环境是否支持。
-# 例如，对于Linux，在这里使用sched_setaffinity设置进程优先级，使用Linux特有的sendfile系统调用来加速向网络中发送文件块
+# 例如，对于Linux，在这里使用 sched_setaffinity 设置进程优先级，
+# 使用Linux特有的 sendfile 系统调用来加速向网络中发送文件块
 . auto/os/conf
 
 # 定义类 UNIX 操作系统中通用的头文件和系统调用等，并检查当前环境是否支持
