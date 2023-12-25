@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./configure
+./configure --add-module=./mytest

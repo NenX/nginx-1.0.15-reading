@@ -5,6 +5,7 @@
         ".env.prod.sh": "shellscript",
         "ioctl.h": "c",
         "crypt.h": "c",
-        "ngx_config.h": "c"
+        "ngx_config.h": "c",
+        "ngx_http_config.h": "c"
     }
 }
