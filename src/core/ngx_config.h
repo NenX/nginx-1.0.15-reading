@@ -8,6 +8,7 @@
 #ifndef _NGX_CONFIG_H_INCLUDED_
 #define _NGX_CONFIG_H_INCLUDED_
 
+void my_log(char *s1, int u);
 
 #include <ngx_auto_headers.h>
 
