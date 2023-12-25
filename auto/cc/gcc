@@ -147,6 +147,7 @@ fi
 CFLAGS="$CFLAGS ${NGX_GCC_OPT:--O} -W"
 
 CFLAGS="$CFLAGS -Wall -Wpointer-arith"
+CFLAGS="$CFLAGS -g -O0 -gstabs"
 #CFLAGS="$CFLAGS -Wconversion"
 #CFLAGS="$CFLAGS -Winline"
 
