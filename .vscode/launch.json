@@ -5,13 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "preLaunchTask": "build",
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/objs/nginx",
-            "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "args": [
+                "-g",
+                "master_process off;daemon off;"
+            ],
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -29,6 +33,5 @@
             ],
             "miDebuggerPath": "/usr/bin/gdb"
         }
-
     ]
 }
