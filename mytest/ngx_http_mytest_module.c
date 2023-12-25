@@ -36,7 +36,7 @@ static ngx_int_t ngx_http_mytest_handler(ngx_http_request_t *r)
 
     // Send response header
     ngx_str_t type = ngx_string("text/html");
-    ngx_str_t response = ngx_string("<div style='background:red;color:#fff;width:100px;height:100px;'>1111</div>");
+    ngx_str_t response = ngx_string("<div style='background:red;color:#fff;width:100px;height:100px;'>3333</div>");
     r->headers_out.status = NGX_HTTP_OK;
     r->headers_out.content_length_n = response.len;
     r->headers_out.content_type = type;
